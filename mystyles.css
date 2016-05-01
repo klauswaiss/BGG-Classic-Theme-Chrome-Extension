@@ -74,6 +74,11 @@ div.game-header-body {
 	background-color: white !important;
 }
 
+div.game-primary {
+	background-image: none !important;
+    background-color: transparent !important;
+}
+
 div.panel-header, div.panel-header-lg {
 	background-image: url("http://cf.geekdo-static.com/images/bg/gradients_2.png") !important;
 	height: 24px !important;
