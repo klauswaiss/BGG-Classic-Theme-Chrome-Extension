@@ -24,7 +24,6 @@ chrome.storage.sync.get({
 				var item = gameHeaderItems.item(i)
 				item.style["color"]='black';
 				item.style["background"]='transparent';
-				item.style["background-color"]='rgb(236, 239, 246)';
 			}
 			
 			var credits = document.getElementsByClassName("credits");
