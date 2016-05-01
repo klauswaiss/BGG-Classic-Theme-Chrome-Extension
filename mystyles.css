@@ -69,14 +69,12 @@ div.game-header-primary-actions.hidden-game-header-collapsed {
 	background-color: white !important;
 }
 
-
 div.game-header-body {
 	background-color: white !important;
 }
 
 div.game-primary {
-	background-image: none !important;
-    background-color: transparent !important;
+	visibility: hidden;
 }
 
 div.panel-header, div.panel-header-lg {
