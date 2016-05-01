@@ -17,21 +17,6 @@ a:link {
     color: rgb(0, 0, 255) !important;
 }
 
-.game-header-title-info h1 a:not(.btn):link, .game-header-title-info h1 a:not(.btn):visited, .game-header-title-info h1 a:not(.btn):hover, .game-header-title-info h1 a:not(.btn):focus {
-	font-size: 22px !important;
-	font-weight: bold !important;
-	color: rgb(0, 0, 136) !important;
-}
-
-.game-header {
-	background-color: rgb(236, 239, 246) !important;
-}
-
-.game-header {
-	color: black !important;
-	background: transparent !important;
-}
-
 a.rating {
 	font-size: 12px !important;
 	background-color: transparent !important;
@@ -48,33 +33,14 @@ div.global-body-content {
 	background-color: white !important;
 }
 
-div.credits {
-	background-color: rgb(229, 229, 229) !important;
-	border-bottom-color: rgb(128, 128, 128) !important;
-	border-top-color: rgb(128, 128, 128) !important;
-}
-
-div.game-header-title-container {
-	background-color: rgb(236, 239, 246) !important;
-	border-color: rgb(212, 218, 232) !important;
-	border-width: 2px !important;
-	border-style: solid !important;
-}
-
-div.game-header-credits.hidden-game-header-collapsed {
-	margin-top: 0px !important;
-}
-
-div.game-header-primary-actions.hidden-game-header-collapsed {
-	background-color: white !important;
-}
-
-div.game-header-body {
-	background-color: white !important;
-}
-
 div.game-primary {
 	visibility: hidden;
+}
+
+.game-header-title-info h1 a:not(.btn):link, .game-header-title-info h1 a:not(.btn):visited, .game-header-title-info h1 a:not(.btn):hover, .game-header-title-info h1 a:not(.btn):focus {
+	font-size: 22px !important;
+	font-weight: bold !important;
+	color: rgb(0, 0, 136) !important;
 }
 
 div.panel-header, div.panel-header-lg {
@@ -225,10 +191,6 @@ a.global-header-icon {
 
 li.global-header-nav-session a {
 	color: white !important;
-}
-
-span.rating-stars {
-	background-color: #dbe0e5 !important;
 }
 
 a.btn.btn-subtle.btn-xs {
