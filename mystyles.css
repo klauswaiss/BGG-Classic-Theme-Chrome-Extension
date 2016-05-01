@@ -34,12 +34,6 @@ a:link {
 	background: transparent !important;
 }
 
-
-div.game-primary {
-	background-image: none !important;
-    background-color: transparent !important;
-}
-
 a.rating {
 	font-size: 12px !important;
 	background-color: transparent !important;
@@ -232,4 +226,12 @@ a.global-header-icon {
 
 li.global-header-nav-session a {
 	color: white !important;
+}
+
+span.rating-stars {
+	background-color: #dbe0e5 !important;
+}
+
+a.btn.btn-subtle.btn-xs {
+	color: black !important;
 }
