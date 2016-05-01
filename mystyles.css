@@ -1,0 +1,235 @@
+body {
+	font-family: verdana, 'lucida grande', arial, sans-serif !important;
+	line-height: normal !important;
+}
+
+#hplogo {
+	visibility: hidden;
+}
+
+a:visited {
+    text-decoration: none !important;
+    color: blue !important;
+}
+
+a:link {
+    text-decoration: none !important;
+    color: rgb(0, 0, 255) !important;
+}
+
+
+.game-header-title-info h1 a:not(.btn):link, .game-header-title-info h1 a:not(.btn):visited, .game-header-title-info h1 a:not(.btn):hover, .game-header-title-info h1 a:not(.btn):focus {
+	font-size: 22px !important;
+	font-weight: bold !important;
+	color: rgb(0, 0, 136) !important;
+}
+
+
+.game-header {
+	background-color: rgb(236, 239, 246) !important;
+}
+
+.game-header {
+	color: black !important;
+	background: transparent !important;
+}
+
+
+div.game-primary {
+	background-image: none !important;
+    background-color: transparent !important;
+}
+
+a.rating {
+	font-size: 12px !important;
+	background-color: transparent !important;
+}
+
+strong {
+	font-size: 12px !important;
+    font-weight: bold !important;
+    line-height: 15px !important;
+    font-family: verdana, 'lucida grande', arial, sans-serif;
+}
+
+div.global-body-content {
+	background-color: white !important;
+}
+
+div.credits {
+	background-color: rgb(229, 229, 229) !important;
+	border-bottom-color: rgb(128, 128, 128) !important;
+	border-top-color: rgb(128, 128, 128) !important;
+}
+
+div.game-header-title-container {
+	background-color: rgb(236, 239, 246) !important;
+	border-color: rgb(212, 218, 232) !important;
+	border-width: 2px !important;
+	border-style: solid !important;
+}
+
+div.game-header-credits.hidden-game-header-collapsed {
+	margin-top: 0px !important;
+}
+
+
+div.game-header-primary-actions.hidden-game-header-collapsed {
+	background-color: white !important;
+}
+
+
+div.game-header-body {
+	background-color: white !important;
+}
+
+
+div.panel-header, div.panel-header-lg {
+	background-image: url("http://cf.geekdo-static.com/images/bg/gradients_2.png") !important;
+	height: 24px !important;
+	font-size: 14px !important;
+	padding: 2px !important;
+}
+
+div.panel-header div.panel-header-actions a {
+	color: white !important;
+}
+
+div.panel-header div.panel-header-actions a.btn.btn-sm.btn-primary {
+	background-color: transparent !important;
+}
+
+div.panel-title {
+	color: white !important;
+}
+
+div.panel-header, div.panel-header-sm {
+	color: white !important;
+}
+
+.panel-title {
+	color: white !important;
+	padding: 2px !important;
+	padding-left: 6px !important;
+}
+
+.modulecommands, .modulecommands a {
+	color: lightblue !important;
+}
+
+.submenutabs a {
+	color: rgb(221, 221, 221) !important;
+}
+
+.mainmenu a.selected {
+	color: #FF0 !important;
+}
+
+div.menutab-open a {
+	color: black !important;
+}
+
+li.js-tablist.js-open > a > div {
+	color: red !important;
+}
+
+ul.searchmenutabs a {
+	color: rgb(255, 255, 0) !important;
+}
+
+ul.searchmenutabs a:hover {
+	color: red !important;
+}
+
+.moduletable th a.selected, .moduletable th a:visited.selected {
+	color: rgb(255, 255, 0) !important;
+}
+
+ul.mainmenutabs a {
+	color: black !important;
+}
+
+.panel-title a {
+	color: white !important;
+}
+
+div.summary-item-title.text-semibold > a {
+	color: black !important;
+	font-weight: bold !important;
+}
+
+ul.summary-rating li:nth-child(even) {
+	background-color: white !important;
+}
+
+ul.summary-rating li:nth-child(odd) {
+	background-color: #e7ecf1 !important;
+}
+
+ul.summary-rating li {
+	padding-bottom: 15px !important;
+	padding-top: 15px !important;
+	margin-bottom: 0px !important;
+}
+
+ul.summary-rating div.rating {
+	margin-top: 20px !important;
+	margin-left: 8px !important;
+}
+
+div.summary-item-meta {
+	font-size: 8px !important;
+}
+
+div.summary-item-body {
+	padding-top: 18px !important;
+	padding-bottom: 18px !important;
+    padding-left: 10px;
+}
+
+div.summary-item-body div.expandable-body {
+	padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    height: 100%;
+    background: dark;
+    padding: 14px;
+    background: #0d0d67;
+}
+
+div.summary-item-body div.expandable-body span:empty {
+	padding: 0px !important;
+	background-color: transparent !important;
+}
+
+div.summary-item-body div.expandable-body span {
+	color: white !important;
+	line-height: normal;
+	font-size: 15px;
+}
+
+div.summary-item-body span {
+	color: black !important;
+}
+
+.summary-rating-item-modified {
+	margin-left: 7px;
+}
+
+div.summary-rating-item-avatar img {
+	width: 20px !important;
+	height: 20px !important;
+	vertical-align: super !important;
+}
+
+div.summary-item-location {
+	font-size: 8px !important;
+}
+
+a.global-header-icon {
+	color: white !important;
+}
+
+li.global-header-nav-session a {
+	color: white !important;
+}

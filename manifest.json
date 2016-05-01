@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Board Game Geek Classic Theme Extension",
+  "version": "1.3",
+  "icons": {
+  		"16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://boardgamegeek.com/*", "http://boardgamegeek.com/*"],
+      "css": ["mystyles.css"],
+      "js": ["addbg.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
