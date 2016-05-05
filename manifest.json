@@ -15,7 +15,7 @@
     {
       "matches": ["https://boardgamegeek.com/*", "http://boardgamegeek.com/*"],
       "css": ["mystyles.css"],
-      "js": ["addbg.js"],
+      "js": ["adjust.js"],
       "run_at": "document_end"
     }
   ]
