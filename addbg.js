@@ -13,9 +13,8 @@ chrome.storage.sync.get({
 			}
 		}
 		
-		makeTopDivVisible();
+		makeTopDivVisible()
 });
-
 
 function adjustWithoutBGImage() {
 	var gamePrimaryDivs = document.getElementsByClassName("game-primary");
