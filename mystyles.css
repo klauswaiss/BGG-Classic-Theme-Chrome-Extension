@@ -153,18 +153,11 @@ div.summary-item-body div.expandable-body {
     height: 100%;
     background: dark;
     padding: 14px;
-    background: #0d0d67;
 }
 
 div.summary-item-body div.expandable-body span:empty {
 	padding: 0px !important;
 	background-color: transparent !important;
-}
-
-div.summary-item-body div.expandable-body span {
-	color: white !important;
-	line-height: normal;
-	font-size: 15px;
 }
 
 div.summary-item-body span {
@@ -176,8 +169,8 @@ div.summary-item-body span {
 }
 
 div.summary-rating-item-avatar img {
-	width: 20px !important;
-	height: 20px !important;
+	width: 60px !important;
+	height: 60px !important;
 	vertical-align: super !important;
 }
 
@@ -195,4 +188,12 @@ li.global-header-nav-session a {
 
 a.btn.btn-subtle.btn-xs {
 	color: black !important;
+}
+
+table.moduletable span.objectlink.ng-binding a, table.moduletable span.forumlink.ng-binding a {
+	color: black !important;
+}
+
+p.expandable-overlay:nth-child(even) {
+	background-image: linear-gradient(rgba(255, 255, 255, 0), #EBF0F5) !important;
 }
