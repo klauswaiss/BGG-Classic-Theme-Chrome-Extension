@@ -2,9 +2,23 @@ chrome.storage.sync.get({
 	bggecbgimage: false
 	}, function(items) {
 
-		if (!items.bggecbgimage) {		
-	
-			var gamePrimaryDivs = document.getElementsByClassName("game-primary");
+		if (!items.bggecbgimage) {
+			adjustWithoutBGImage()
+		}
+		else {
+			var gamePrimaryDivs = document.getElementsByClassName("game-header");
+			for(var i = 0; i < gamePrimaryDivs.length; i++) {
+				var item = gamePrimaryDivs.item(i)
+					item.setAttribute('style', 'background-image: -webkit-linear-gradient(-360deg, #080912 60%, rgba(0, 0, 0, 0.55) 100%) !important');
+			}
+		}
+		
+		makeTopDivVisible();
+});
+
+
+function adjustWithoutBGImage() {
+	var gamePrimaryDivs = document.getElementsByClassName("game-primary");
 			for(var i = 0; i < gamePrimaryDivs.length; i++) {
 				var item = gamePrimaryDivs.item(i)
 				item.style["background-image"]='none';
@@ -66,18 +80,12 @@ chrome.storage.sync.get({
 				var item = spanRatingStars.item(i)
 				item.style["background-color"]='#dbe0e5';
 			}
-		}
-		else {
-			var gamePrimaryDivs = document.getElementsByClassName("game-header");
-			for(var i = 0; i < gamePrimaryDivs.length; i++) {
-				var item = gamePrimaryDivs.item(i)
-					item.setAttribute('style', 'background-image: -webkit-linear-gradient(-360deg, #080912 60%, rgba(0, 0, 0, 0.55) 100%) !important');
-			}
-		}
-		
-		var gamePrimaryDivs = document.getElementsByClassName("game-primary");
-		for(var i = 0; i < gamePrimaryDivs.length; i++) {
-			var item = gamePrimaryDivs.item(i)
-			item.style["visibility"]="visible";
-		}
-});
+}
+
+function makeTopDivVisible() {
+	var gamePrimaryDivs = document.getElementsByClassName("game-primary");
+	for(var i = 0; i < gamePrimaryDivs.length; i++) {
+		var item = gamePrimaryDivs.item(i)
+		item.style["visibility"]="visible";
+	}
+}
