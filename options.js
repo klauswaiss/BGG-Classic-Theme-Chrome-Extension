@@ -1,8 +1,8 @@
 // Saves options to chrome.storage
 function save_options() {
-  var bgimage = document.getElementById('showHeaderBackgroundImage').checked;
+  var bgimage = document.getElementById('bggecbgimage').checked;
   chrome.storage.sync.set({
-    showHeaderBackgroundImage: bgimage
+    bggecbgimage: bgimage
   }, function() {
 	  
   });
@@ -10,9 +10,9 @@ function save_options() {
 
 function restore_options() {
   chrome.storage.sync.get({
-    showHeaderBackgroundImage: false
+    bggecbgimage: false
   }, function(items) {
-    document.getElementById('showHeaderBackgroundImage').checked = items.showHeaderBackgroundImage;
+    document.getElementById('bggecbgimage').checked = items.bggecbgimage;
   });
 }
 document.addEventListener('DOMContentLoaded', restore_options);
