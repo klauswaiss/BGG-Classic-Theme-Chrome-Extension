@@ -1,8 +1,8 @@
 chrome.storage.sync.get({
-	bggecbgimage: false
+	showHeaderBackgroundImage: false
 	}, function(items) {
 
-		if (!items.bggecbgimage) {
+		if (!items.showHeaderBackgroundImage) {
 			adjustWithoutBGImage()
 		}
 		else {

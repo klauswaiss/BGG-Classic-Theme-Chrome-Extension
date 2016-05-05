@@ -2,7 +2,7 @@
 function save_options() {
   var bgimage = document.getElementById('bggecbgimage').checked;
   chrome.storage.sync.set({
-    bggecbgimage: bgimage
+    showHeaderBackgroundImage: bgimage
   }, function() {
 	  
   });
@@ -10,9 +10,9 @@ function save_options() {
 
 function restore_options() {
   chrome.storage.sync.get({
-    bggecbgimage: false
+    showHeaderBackgroundImage: false
   }, function(items) {
-    document.getElementById('bggecbgimage').checked = items.bggecbgimage;
+    document.getElementById('bggecbgimage').checked = items.showHeaderBackgroundImage;
   });
 }
 document.addEventListener('DOMContentLoaded', restore_options);
