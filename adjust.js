@@ -1,20 +1,17 @@
 chrome.storage.sync.get({
 	showHeaderBackgroundImage: false
 	}, function(items) {
-
-		if (!items.showHeaderBackgroundImage) {
-			adjustWithoutBGImage()
-		}
-		else {
-			var gamePrimaryDivs = document.getElementsByClassName("game-header");
-			for(var i = 0; i < gamePrimaryDivs.length; i++) {
-				var item = gamePrimaryDivs.item(i)
-					item.setAttribute('style', 'background-image: -webkit-linear-gradient(-360deg, #080912 60%, rgba(0, 0, 0, 0.55) 100%) !important');
-			}
-		}
-		
+		(items.showHeaderBackgroundImage) ? adjustWithBGImage() : adjustWithoutBGImage()		
 		makeTopDivVisible()
 });
+
+function adjustWithBGImage() {
+	var gamePrimaryDivs = document.getElementsByClassName("game-header");
+	for(var i = 0; i < gamePrimaryDivs.length; i++) {
+		var item = gamePrimaryDivs.item(i)
+			item.setAttribute('style', 'background-image: -webkit-linear-gradient(-360deg, #080912 60%, rgba(0, 0, 0, 0.55) 100%) !important');
+	}
+}
 
 function adjustWithoutBGImage() {
 	var gamePrimaryDivs = document.getElementsByClassName("game-primary");
