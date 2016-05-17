@@ -197,3 +197,19 @@ table.moduletable span.objectlink.ng-binding a, table.moduletable span.forumlink
 p.expandable-overlay:nth-child(even) {
 	background-image: linear-gradient(rgba(255, 255, 255, 0), #EBF0F5) !important;
 }
+
+#side-menu a {
+	color: #9DB2C6 !important;
+}
+
+li.hidden-xs.active a {
+	color: white !important
+}
+
+span.summary-media-grid-count-label {
+	color: white !important;
+}
+
+div.summary-media-grid-count a {
+	color: white !important;
+}
