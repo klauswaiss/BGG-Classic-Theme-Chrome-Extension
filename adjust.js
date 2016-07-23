@@ -10,6 +10,7 @@ function adjustWithBGImage() {
 	adjustStylingWithQuerySelector(".game-header-credits a", "color: white !important");
 	adjustStylingWithQuerySelector(".rating-overall-callout-container a", "color: white !important");
 	adjustStylingWithQuerySelector(".game-header-classifications a", "color: white !important");
+	adjustStylingWithQuerySelector("ul.ranks a.rank-value", "color: white !important");
 }
 
 function adjustWithoutBGImage() {
